@@ -40,7 +40,7 @@
 					<img src="${pageContext.request.contextPath}/resources/img/slide/slide_02.jpg" style="width: 100%">
 				</div>
 				<div class="mySlides fade">
-					<img src="${pageContext.request.contextPath}/resources/img/slide/slide_01.jpg" style="width: 100%">
+					<img src="${pageContext.request.contextPath}/resources/img/slide/slide_03.jpg" style="width: 100%">
 				</div>
 			</div>
 

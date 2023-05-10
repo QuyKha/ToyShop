@@ -35,7 +35,7 @@
 				<li class="nav-item">
 					<form class="form-inline my-2 my-lg-0" id="form-search2">
 						<input class="form-control mr-sm-2" id="input-search2" type="text"
-							placeholder="VD: Trái cây nhập khẩu"> <span
+							placeholder="Tìm kiếm sản phẩm..."> <span
 							class="nav-link bi bi-search" id="search2"></span>
 					</form>
 				</li>
@@ -43,8 +43,6 @@
 			<ul class="navbar-nav mr-auto ml-auto mt-2 mt-lg-0 navcenter">
 				<li class="nav-item"><a class="nav-link" id="navbar-btn-home"
 					href="${pageContext.request.contextPath}/">Trang Chủ</a></li>
-				<li class="nav-item "><a class="nav-link" id="navbar-btn-traicaynhapkhau"
-					href="${pageContext.request.contextPath}/category/id=4">Trái cây nhập khẩu</a></li>
 				<li class="nav-item dropdown" id="navbar-btn-quatang"><a
 					class="nav-link dropdown-toggle" href="${pageContext.request.contextPath}/product/list/page=1"
 					id="dropdownId" aria-haspopup="true" aria-expanded="false">Danh mục sản phẩm</a>
@@ -53,7 +51,7 @@
 							List<Category> categories = (List<Category>)session.getAttribute("category");
 							for(Category c : categories){
 								if(c.getCategoryID()!=4)
-									out.println("<a class=\"dropdown-item\" href=\"/fruits-shop/category/id="+c.getCategoryID()+"\">"+ c.getName() +"</a>");
+									out.println("<a class=\"dropdown-item\" href=\"/toy-shop/category/id="+c.getCategoryID()+"\">"+ c.getName() +"</a>");
 							}
 					%>
 					</div></li>
@@ -68,7 +66,7 @@
 				<li class="nav-item input-search">
 					<form class="form-inline my-2 my-lg-0" id="form-search">
 						<input class="form-control mr-sm-2" id="input-search" type="text"
-							placeholder="VD: Trái cây nhập khẩu"> 
+							placeholder="Tìm kiếm sản phẩm..."> 
 						<span class="nav-link bi bi-search" id="search"></span>
 					</form>
 					<!-- <span class="nav-link bi bi-search" id="search"></span> -->
