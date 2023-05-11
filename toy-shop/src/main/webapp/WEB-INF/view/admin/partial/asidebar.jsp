@@ -4,7 +4,7 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="${pageContext.request.contextPath}/" class="brand-link">
-      <span class="brand-text font-weight-light">Fruits Shop</span>
+      <span class="brand-text font-weight-light">Toy Shop</span>
     </a>
 
     <div class="sidebar">

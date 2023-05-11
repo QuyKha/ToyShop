@@ -88,48 +88,12 @@
 			</div>
 
 
-			<div class="name">
-				<p class="name-product">- DỊCH VỤ CỦA CHÚNG TÔI -</p>
-			</div>
+			
 			<div class="row">
-				<div class="dich-vu">
-					<img src="${pageContext.request.contextPath}/resources/img/banner/banner_01.png" alt="picture"
-						class="dich-vu-img">
-					<div class="dich-vu-info">
-						<h4 class="dich-vu-title">Giỏ quà tặng cao cấp</h4>
-						<h6 class="dich-vu-desc">Chúng tôi cung cấp tất cả các loại
-							giỏ quà tặng trái cây phù hợp với các nhu cầu của bạn.</h6>
-					</div>
-				</div>
-				<div class="dich-vu">
-					<img src="${pageContext.request.contextPath}/resources/img/banner/banner_02.png" alt="picture"
-						class="dich-vu-img">
-					<div class="dich-vu-info">
-						<h5 class="dich-vu-title">Hộp trái cây cao cấp</h5>
-						<h6 class="dich-vu-desc">Các loại hộp trái cây nhập khẩu có
-							sẵn sang trọng và đảm bảo chất lượng, phù hợp với mọi nhu cầu.</h6>
-					</div>
-				</div>
-				<div class="dich-vu">
-					<img src="${pageContext.request.contextPath}/resources/img/banner/banner_03.png" alt="picture"
-						class="dich-vu-img">
-					<div class="dich-vu-info">
-						<h5 class="dich-vu-title">Trái cây nhập khẩu cao cấp</h5>
-						<h6 class="dich-vu-desc">Tại Vinfruits, chúng tôi nhập khẩu
-							các loại trái cây tươi ngon nhất, đảm bảo nguồn gốc xuất xứ rõ
-							ràng.</h6>
-					</div>
-				</div>
-				<div class="dich-vu">
-					<img src="${pageContext.request.contextPath}/resources/img/banner/banner_03.png" alt="picture"
-						class="dich-vu-img">
-					<div class="dich-vu-info">
-						<h5 class="dich-vu-title">Giao hàng trái cây trong 2h</h5>
-						<h6 class="dich-vu-desc">Chúng tôi cung cấp dịch vụ giao hàng
-							nội thành TP.HCM chỉ 2h để giúp bạn có được trải nghiệm mua hàng
-							tốt nhất.</h6>
-					</div>
-				</div>
+				
+				
+				
+			
 			</div>
 		</div>
 

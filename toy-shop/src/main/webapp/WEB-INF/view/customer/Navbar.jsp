@@ -92,12 +92,12 @@
 						<button type="button" class="nav-link dropdown-toggle bi bi-person btn-person-pc"  id="btnLogin" aria-haspopup="true" aria-expanded="false"></button>
 		      				<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownId">
 		        				<security:authorize access="hasAnyRole('ADMIN')">
-								<a class="dropdown-item" href="/fruits-shop/admin/dashboard">Trang quản trị</a>
+								<a class="dropdown-item" href="/toy-shop/admin/dashboard">Trang quản trị</a>
 		                    	</security:authorize>
-		       				<a class="dropdown-item" href="/fruits-shop/user/thong-tin-ca-nhan">Thông tin cá nhân</a>
-		       				<a class="dropdown-item" href="/fruits-shop/user/order/list">Đơn hàng</a>
-		       				<a class="dropdown-item" href="/fruits-shop/user/doi-mat-khau">Đổi mật khẩu</a>
-		       				<a class="dropdown-item" href="/fruits-shop/logout">Đăng xuất</a>
+		       				<a class="dropdown-item" href="/toy-shop/user/thong-tin-ca-nhan">Thông tin cá nhân</a>
+		       				<a class="dropdown-item" href="/toy-shop/user/order/list">Đơn hàng</a>
+		       				<a class="dropdown-item" href="/toy-shop/user/doi-mat-khau">Đổi mật khẩu</a>
+		       				<a class="dropdown-item" href="/toy-shop/logout">Đăng xuất</a>
 		      				</div>            
 		            </li>
 	            </security:authorize>

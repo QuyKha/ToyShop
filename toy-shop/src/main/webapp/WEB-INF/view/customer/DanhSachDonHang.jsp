@@ -11,7 +11,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Danh sách hóa đơn - Vinfruts</title>
+	<title>Danh sách hóa đơn</title>
 	<meta name=”viewport” content=” width=device-width, initial-scale=1″>
 	<!-- <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css" /> -->
 	<!-- <script src="../bootstrap/jquery/jquery-3.6.0.min.js"></script>

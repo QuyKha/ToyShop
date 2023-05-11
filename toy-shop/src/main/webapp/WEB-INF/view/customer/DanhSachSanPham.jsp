@@ -11,7 +11,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Sản Phẩm - Vinfruts</title>
+	<title>Sản Phẩm</title>
 	<meta name=”viewport” content=” width=device-width, initial-scale=1″>
 	<!-- <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css" /> -->
 	<!-- <script src="../bootstrap/jquery/jquery-3.6.0.min.js"></script>
@@ -52,9 +52,9 @@
 					<font color="black">
 						<a href="${pageContext.request.contextPath}" style="color: black;">TRANG CHỦ</a> /
 						<%if (category == null){
-							out.print("<a style=\"color: black;\" href=\"/fruits-shop/product/list/page=1\"> DANH SÁCH SẢN PHẨM ");
+							out.print("<a style=\"color: black;\" href=\"/toy-shop/product/list/page=1\"> DANH SÁCH SẢN PHẨM ");
 						} else {
-							out.print("<a style=\"color: black;\" href=\"/fruits-shop/category/id="+category.getCategoryID() +"\">" +category.getName());
+							out.print("<a style=\"color: black;\" href=\"/toy-shop/category/id="+category.getCategoryID() +"\">" +category.getName());
 						}%>
 						 </a> / PAGE ${page}
 					</font>
@@ -112,16 +112,16 @@
 						for(int i = 1 ; i <= pagenum ; i++){
 							if(i == pageID){
 								if(category == null){
-									out.println("<a href=\"/fruits-shop/product/list/page="+ i +"\" class= \"active\">"+ i +"</a>");
+									out.println("<a href=\"/toy-shop/product/list/page="+ i +"\" class= \"active\">"+ i +"</a>");
 								}else{
-									out.println("<a href=\"/fruits-shop/category/id=" + category.getCategoryID()+ "/page="+ i +"\" class= \"active\">"+ i +"</a>");
+									out.println("<a href=\"/toy-shop/category/id=" + category.getCategoryID()+ "/page="+ i +"\" class= \"active\">"+ i +"</a>");
 								}
 							}
 							else{
 								if(category == null){			
-									out.println("<a href=\"/fruits-shop/product/list/page="+ i +"\" >"+ i +"</a>");								
+									out.println("<a href=\"/toy-shop/product/list/page="+ i +"\" >"+ i +"</a>");								
 								}else{
-									out.println("<a href=\"/fruits-shop/category/id=" + category.getCategoryID() + "/page="+ i +"\" >"+ i +"</a>");
+									out.println("<a href=\"/toy-shop/category/id=" + category.getCategoryID() + "/page="+ i +"\" >"+ i +"</a>");
 								}
 							}
 						}
@@ -132,9 +132,9 @@
 								int tmp2 = ((int)request.getAttribute("size_product")+7) /8;
 								if(pageID< tmp2) {
 									if(category == null){	
-										out.println("/fruits-shop/product/list/page="+ (pageID+1));
+										out.println("/toy-shop/product/list/page="+ (pageID+1));
 									}else{
-										out.println("/fruits-shop/category/id=" + category.getCategoryID() + "/page="+ (pageID+1));
+										out.println("/toy-shop/category/id=" + category.getCategoryID() + "/page="+ (pageID+1));
 									}
 								}
 								else 
@@ -153,9 +153,9 @@
     	var x = document.getElementById("filter").value;
     	window.location=<%
     			if(category == null)
-    				out.print("\"http://localhost:8080/fruits-shop/product/list/page=1?orderby=\"");
+    				out.print("\"http://localhost:8080/toy-shop/product/list/page=1?orderby=\"");
     			else
-    				out.print("\"http://localhost:8080/fruits-shop/category/id=" + category.getCategoryID() + "/page=1?orderby=\"");
+    				out.print("\"http://localhost:8080/toy-shop/category/id=" + category.getCategoryID() + "/page=1?orderby=\"");
     			%> + x;
     }
     </script>

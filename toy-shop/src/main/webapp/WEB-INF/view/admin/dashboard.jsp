@@ -109,19 +109,7 @@ response.setCharacterEncoding("UTF-8");
 			</div>
 			<section class="content">
 				<div class="container-fluid">
-					<div class="row">
-						<div class="col-12">
-							<div class="card">
-								<div class="card-header">
-									<i class="fa-solid fa-chart-pie"></i> Biểu đồ doanh thu
-								</div>
-								<div class="card-body">
-									<canvas id="myChart" style="width: 100%;"></canvas>
-								</div>
-							</div>
-
-						</div>
-					</div>
+					
 					<div class="row">
 						
 						<div class="col-12">
