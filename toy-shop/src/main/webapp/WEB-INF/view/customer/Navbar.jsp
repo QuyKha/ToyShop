@@ -56,8 +56,8 @@
 					%>
 					</div></li>
 				
-				<li class="nav-item "><a class="nav-link" id="navbar-btn-dichvu"
-					href="${pageContext.request.contextPath}/dichvu">Giới thiệu</a></li>
+				<%-- <li class="nav-item "><a class="nav-link" id="navbar-btn-dichvu"
+					href="${pageContext.request.contextPath}/dichvu">Giới thiệu</a></li> --%>
 				<%-- <li class="nav-item"><a class="nav-link" id="navbar-btn-gioithieu"
 				href="${pageContext.request.contextPath}/vevinfruits">Về
 						VinFruits</a></li> --%>

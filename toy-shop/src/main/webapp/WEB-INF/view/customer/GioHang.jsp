@@ -174,7 +174,7 @@
             var vat = 0;
             function  changeURL() {
             	
-            	window.location.href = 'http://localhost:8080/fruits-shop/';
+            	window.location.href = 'http://localhost:8080/toy-shop/';
 				
 			}
             function changeValueGH(x,id){

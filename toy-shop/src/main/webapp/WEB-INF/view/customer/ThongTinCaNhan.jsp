@@ -10,7 +10,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Thông tin cá nhân - Vinfruts</title>
+		<title>Thông tin cá nhân</title>
 		<meta name=”viewport” content=” width=device-width, initial-scale=1″>
 		<meta charset="utf-8" />
 		<!-- <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css" /> -->

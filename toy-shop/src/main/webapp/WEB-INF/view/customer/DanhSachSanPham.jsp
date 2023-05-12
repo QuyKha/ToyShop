@@ -100,9 +100,9 @@
 								int tmp = (int)request.getAttribute("page");
 								if(tmp > 1) {
 									if(category == null){	
-										out.println("/fruits-shop/product/list/page="+ (pageID-1));
+										out.println("/toy-shop/product/list/page="+ (pageID-1));
 									}else{
-										out.println("/fruits-shop/category/id=" + category.getCategoryID() + "/page="+ (pageID-1));
+										out.println("/toy-shop/category/id=" + category.getCategoryID() + "/page="+ (pageID-1));
 									}
 								}
 								else out.println("");%> ">«</a>

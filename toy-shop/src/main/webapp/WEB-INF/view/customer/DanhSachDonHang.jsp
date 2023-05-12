@@ -99,7 +99,7 @@ margin-top: 5vh;
 	<script type="text/javascript">
 	function tai_lai_trang(){
     	var x = document.getElementById("filteroder").value;
-    	window.location="http://localhost:8080/fruits-shop/user/order/list?filteroder="+x;
+    	window.location="http://localhost:8080/toy-shop/user/order/list?filteroder="+x;
     }
 	</script>
 </body>
