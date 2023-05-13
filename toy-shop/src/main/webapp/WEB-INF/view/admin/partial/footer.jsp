@@ -8,7 +8,7 @@
 </head>
 <body>
 	<footer class="main-footer">
-    <strong>Môn JAVA WWW Nhóm 8: <a href="${pageContext.request.contextPath}/">Toy Shop</a>.</strong>
+    <strong>Môn JAVA WWW Nhóm 7: <a href="${pageContext.request.contextPath}/">Toy Shop</a>.</strong>
     <div class="float-right d-none d-sm-inline-block">
 
     </div>

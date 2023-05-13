@@ -52,7 +52,7 @@ import nhom07.service.*;
 public class AdminController {
 	public static final Charset ISO_8859_1 = Charset.forName("ISO-8859-1");
     public static final Charset UTF_8 = Charset.forName("UTF-8");
-	public static final String PATH_CONTEXT = "/fruits-shop";
+	public static final String PATH_CONTEXT = "/toy-shop";
 	private static final long MILLIS_IN_A_DAY = 1000 * 60 * 60 * 24;
 	public static final String PATH_STORE_ROOT = "\\resources\\img\\product_picture\\";
 	@Autowired
